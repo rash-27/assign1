@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Freeman&family=Krona+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Freeman&family=Kalam:wght@300;400;700&family=Krona+One&display=swap" rel="stylesheet">
+<style>
+@font-face {
+  font-family: myFirstFont;
+  src: url(Miraculous&Christmas.ttf);
+}
+*{
+  transition: all 0.5s ease;
+}
+    .middle{
+        display: flex;
+        justify-content: center;
+    }
+    .back{
+        background-attachment: fixed;
+        background-image: url('./homebg.jpg');
+        background-position: center center;
+    }
+    .headPar{
+        margin-top: 100px;
+        position: relative;
+        height :75px;
+        border: 3px solid #ab8d60;
+    }
+    .headTxt{
+        color: aliceblue;
+        font-family: myFirstFont;
+        font-weight: 500;
+        font-size: 50px;
+        background-color:  rgba(11, 3, 60, 0.5);
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative; 
+        border: 3px solid #ab8d60;
+        top: 5px;
+        height : 75px;
+        left: 5px;
+    }
+    .imgPar{
+        margin-top: 100px;
+        width: 300px;
+        position: relative;
+        height :350px;
+        border: 3px solid #ab8d60;
+    }
+    .imgChi{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        background-color: rgba(11, 3, 60, 0.5);
+        position: relative; 
+        border: 3px solid #ab8d60;
+        top: 5px;
+        height : 350px;
+        left: 5px;
+    }
+    .image{
+        width: 60%;
+        height: 60%;
+    }
+    .normal-head{
+        text-align: center;
+        font-family: "Krona One", "sans-serif";
+        padding-top: 10%;
+        font-size: 130%;
+        color: aliceblue;
+    }
+    .normal-text{
+        text-align: center;
+        font-family: "Kalam", "cursive";
+        padding-top: 9%;
+        font-size: 120%;
+        font-weight: 500;
+        color: aliceblue;
+    }
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        place-items: center; 
+    }
+    
+    .home-heading{
+        height: 100vh;
+        font-family: myFirstFont;
+        color: #FFD700;
+        display: flex;
+        font-size: 100px;
+        justify-content: center;
+        align-items: center;
+    }
+@media (min-width : 700px) and (max-width:1500px) {
+    .gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    place-items: center; 
+    }  
+    .home-heading{
+        height: 100vh;
+        font-family: myFirstFont;
+        color: #FFD700;
+        display: flex;
+        font-size: 200px;
+        justify-content: center;
+        align-items: center;
+    }  
+}
+
+@media (min-width : 1500px)  {
+    .gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    place-items: center; 
+    }
+    .home-heading{
+        height: 100vh;
+        font-family: myFirstFont;
+        color: #FFD700;
+        display: flex;
+        font-size: 300px;
+        justify-content: center;
+        align-items: center;
+    }  
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+
+</style>
+</head>
+<body class="back">
+<div class="home-heading">
+    <!-- Heading -->
+        Demo fest
+</div>
+<!-- Events -->
+<div class="middle">
+<div class="headPar" style="width: 250px;">
+    <div class="headTxt" style="width: 250px;">
+        <div>
+            Events
+        </div>
+    </div>
+</div>
+</div>
+<div class="gallery">
+
+    <a class="imgPar">
+        <div class="imgChi">
+            <img src="e1.jpg" alt="testImg" class="image">
+            <div>
+                <div class="normal-head">
+                    Heading 1
+                </div>
+                <div class="normal-text">
+                    Dummy Text 1
+                </div>
+            </div>
+        </div>
+    </a>
+
+    <a class="imgPar">
+        <div class="imgChi">
+            <img src="e2.jpg" alt="testImg" class="image">
+            <div>
+                <div class="normal-head">
+                    Heading 1
+                </div>
+                <div class="normal-text">
+                    Dummy Text 1
+                </div>
+            </div>
+        </div>
+    </a>
+
+    <a class="imgPar">
+        <div class="imgChi">
+            <img src="e3.jpg" alt="testImg" class="image">
+            <div>
+                <div class="normal-head">
+                    Heading 1
+                </div>
+                <div class="normal-text">
+                    Dummy Text 1
+                </div>
+            </div>
+        </div>
+    </a>
+
+    <a class="imgPar">
+        <div class="imgChi">
+            <img src="e4.jpg" alt="testImg" class="image">
+            <div>
+                <div class="normal-head">
+                    Heading 1
+                </div>
+                <div class="normal-text">
+                    Dummy Text 1
+                </div>
+            </div>
+        </div>
+    </a>
+
+</div>
+<div class="middle">
+    <div class="headPar" style="width: 200px;">
+        <div class="headTxt" style="width: 200px;font-size: 35px;font-weight: 300;">
+            <a>
+                Explore
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<!-- Competitions -->
+ <div class="middle">
+     <div class="headPar" style="width: 300px;">
+         <div class="headTxt" style="width: 300px;">
+             <div>
+                 Competitions
+             </div>
+         </div>
+     </div>
+ </div>
+<div class="gallery">
+
+    <a class="imgPar">
+        <div class="imgChi">
+            <img src="1.jpg" alt="testImg" class="image">
+            <div>
+                <div class="normal-head">
+                    Heading 1
+                </div>
+                <div class="normal-text">
+                    Dummy Text 1
+                </div>
+            </div>
+        </div>
+    </a>
+
+    <a class="imgPar">
+        <div class="imgChi">
+            <img src="2.jpg" alt="testImg" class="image">
+            <div>
+                <div class="normal-head">
+                    Heading 1
+                </div>
+                <div class="normal-text">
+                    Dummy Text 1
+                </div>
+            </div>
+        </div>
+    </a>
+
+    <a class="imgPar">
+        <div class="imgChi">
+            <img src="3.jpg" alt="testImg" class="image">
+            <div>
+                <div class="normal-head">
+                    Heading 1
+                </div>
+                <div class="normal-text">
+                    Dummy Text 1
+                </div>
+            </div>
+        </div>
+    </a>
+
+    <a class="imgPar">
+        <div class="imgChi">
+            <img src="4.jpg" alt="testImg" class="image">
+            <div>
+                <div class="normal-head">
+                    Heading 1
+                </div>
+                <div class="normal-text">
+                    Dummy Text 1
+                </div>
+            </div>
+        </div>
+    </a>
+
+</div>
+<div class="middle">
+    <div class="headPar" style="width: 200px;">
+        <div class="headTxt" style="width: 200px;font-size: 35px;font-weight: 300;">
+            <a>
+                Explore
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<!-- Past Exhibitions -->
+<div class="middle">
+    <div class="headPar" style="width: 300px;">
+        <div class="headTxt" style="width: 300px;">
+            <div>
+                Past Exhibitions
+            </div>
+        </div>
+    </div>
+</div>
+<div class="gallery">
+
+   <a class="imgPar">
+       <div class="imgChi">
+           <img src="9.jpg" alt="testImg" class="image">
+           <div>
+               <div class="normal-head">
+                   Heading 1
+               </div>
+               <div class="normal-text">
+                   Dummy Text 1
+               </div>
+           </div>
+       </div>
+    </a>
+
+   <a class="imgPar">
+       <div class="imgChi">
+           <img src="10.jpg" alt="testImg" class="image">
+           <div>
+               <div class="normal-head">
+                   Heading 1
+               </div>
+               <div class="normal-text">
+                   Dummy Text 1
+               </div>
+           </div>
+       </div>
+    </a>
+
+   <a class="imgPar">
+       <div class="imgChi">
+           <img src="11.jpg" alt="testImg" class="image">
+           <div>
+               <div class="normal-head">
+                   Heading 1
+               </div>
+               <div class="normal-text">
+                   Dummy Text 1
+               </div>
+           </div>
+       </div>
+    </a>
+
+   <a class="imgPar">
+       <div class="imgChi">
+           <img src="12.jpg" alt="testImg" class="image">
+           <div>
+               <div class="normal-head">
+                   Heading 1
+               </div>
+               <div class="normal-text">
+                   Dummy Text 1
+               </div>
+           </div>
+       </div>
+    </a>
+
+</div>
+<div class="middle">
+    <div class="headPar" style="width: 200px;">
+        <div class="headTxt" style="width: 200px;font-size: 35px;font-weight: 300;">
+            <a>
+                Explore
+            </a>
+        </div>
+    </div>
+</div>
+
+<br>
+<br>
+
+</body>
+</html>
